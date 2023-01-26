@@ -1,0 +1,100 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hoperMain{
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    border: 2px solid rgba(72, 118, 43, 0.541);
+    padding: 20px;
+}
+
+
+p{
+    color: rgba(0, 0, 0, 0.852);
+    font-size: 18px;
+}
+.hop1{
+    background-color: red;
+    padding: 20px;
+}
+.hop2{
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 20px;
+}
+.hop3{
+    background-color: orange;
+    padding: 20px;
+    margin-top: 20px;
+}
+.hop4{
+    background-color: green;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+.heardBen{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+    left: 480px;
+}
+
+.heardBen .div1{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(105, 11, 178);
+   cursor: pointer;
+}
+.heardBen .div2{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(130, 126, 20);
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.heardBen .div3{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(197, 27, 186);
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+.heardBen .div4{
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background-color: rgb(11, 31, 145);
+   margin-left: 10px;
+   cursor: pointer;
+}
+
+
+
+.heardBen .div1:active{
+    background-color: rgb(150, 99, 189) ;
+    
+}
+.heardBen .div2:active{
+    background-color: rgb(150, 99, 189) ;
+   
+}
+.heardBen .div3:active{
+    background-color: rgb(150, 99, 189) ;
+
+}
+.heardBen .div4:active{
+    background-color: rgb(150, 99, 189) ;
+}
